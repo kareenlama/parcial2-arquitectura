@@ -1,6 +1,6 @@
 name: Intregracion-Continua
 on:
-  pull_request,commit:
+  pull_request:
     branches: [ "main" ]
 jobs:
   build:
